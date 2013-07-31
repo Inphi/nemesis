@@ -32,6 +32,6 @@
 #include <libnet.h>
 #include "nemesis.h"
 
-int buildarp(ETHERhdr *, ARPhdr *, FileData *, char *, int);
+int buildarp(ETHERhdr *, ARPhdr *, FileData *, char *, int, ProtocolAddr *);
 
 #endif /* __NEMESIS_ARP_H__ */

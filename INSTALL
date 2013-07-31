@@ -15,6 +15,11 @@ Installing Nemesis on UNIX-like systems is a straightforward process that
 closely resembles installing any other piece of software using GNU autotools.  
 Before attempting to install Nemesis, ensure that libnet-1.0.2a is installed.
 
+Depending on your os and arch, you may need to run:
+	- autoconf
+	- autoheader configure.in
+before proceeding 
+
 The following steps are all that is needed to compile and install Nemesis:
 1. ./configure
 2. make

@@ -122,6 +122,14 @@ extern int got_link;
 extern int got_ipoptions;
 extern int got_tcpoptions;
 
+typedef struct _ProtocolAddr
+{
+	u_char ar_sha[6]; 
+	u_char ar_spa[4];
+	u_char ar_tha[6];
+	u_char ar_tpa[4];
+} ProtocolAddr;
+
 typedef struct _FileData
 {
     int32_t file_s;         /* file size */
